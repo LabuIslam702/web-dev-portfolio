@@ -156,7 +156,21 @@ main section{
     display: none;
  }
  @media screen and (max-width: 576px) {
-    .skill-container, .summary-container, .about-items{
+    .skill-container, 
+    .summary-container,
+    .about-items,
+    .banner,
+    nav,
+    nav >ul{
         flex-direction: column;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-photo{
+        width: 100%;
+    }
+    nav > ul{
+        gap: 20px;
     }
  }
