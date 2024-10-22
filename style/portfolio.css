@@ -150,3 +150,13 @@ main section{
     display: flex;
     gap: 20px;
  }
+
+ /* Responsive Media Query */
+ .hide{
+    display: none;
+ }
+ @media screen and (max-width: 576px) {
+    .skill-container, .summary-container, .about-items{
+        flex-direction: column;
+    }
+ }
